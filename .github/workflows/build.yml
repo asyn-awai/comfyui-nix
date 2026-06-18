@@ -273,6 +273,8 @@ jobs:
           ls -lh result
 
       - name: Tag and push Docker image
+        env:
+          CONTAINERS_REGISTRIES_CONF: /dev/null
         run: |
           # Use skopeo to push directly from the nix-built docker-archive
           # This avoids loading into Docker's local storage, saving disk space
