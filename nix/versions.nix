@@ -3,7 +3,7 @@
     version = "0.27.0";
     releaseDate = "2026-06-16T17:05:41Z";
     rev = "6fca64780cb0ce32c76e62e8370ed8145186c729";
-    hash = "sha256-bb131be9e83d2f773c90f1d6f1e4b248a498c8c5";
+    hash = "";
   };
 
   vendored = {
